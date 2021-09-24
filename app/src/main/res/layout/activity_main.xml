@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/big_round_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="65"
+        app:layout_constraintCircleRadius="130dp"
+        app:srcCompat="@drawable/ic_icons8_futurama_bender__2_" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="85"
+        app:layout_constraintCircleRadius="120dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="25"
+        app:layout_constraintCircleRadius="135dp"
+        app:srcCompat="@drawable/ic_icons8_iron_man" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="30.5"
+        app:layout_constraintCircleRadius="85dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="130dp"
+        app:srcCompat="@drawable/ic_icons8anonymousmask" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="160dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="165"
+        app:layout_constraintCircleRadius="120dp"
+        app:srcCompat="@drawable/ic_icons8_futurama_bender__2_" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="170"
+        app:layout_constraintCircleRadius="170dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="220"
+        app:layout_constraintCircleRadius="120dp"
+        app:srcCompat="@drawable/ic_icons8homersimpson" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="160dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="265"
+        app:layout_constraintCircleRadius="130dp"
+        app:srcCompat="@drawable/ic_icons8scream__1_" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="290"
+        app:layout_constraintCircleRadius="125dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="310"
+        app:layout_constraintCircleRadius="140dp"
+        app:srcCompat="@drawable/ic_icons8stormtrooper" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="245"
+        app:layout_constraintCircleRadius="140dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="345"
+        app:layout_constraintCircleRadius="140dp"
+        app:srcCompat="@drawable/ic_icons8scream__2_" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/imageView4"
+        app:layout_constraintCircleAngle="340"
+        app:layout_constraintCircleRadius="90dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_icons8supermario" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
